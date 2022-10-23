@@ -690,8 +690,13 @@ void menu(){
 }
 
 //MENU KELOMPOK GOLONGAN PELANGGAN
+int sekalimuncul = 0;
 int main(){
+    if (sekalimuncul != 1){
     menu();
+    sekalimuncul=1;
+    }
+    int pilihan;
     int pilihan;
 
     printf("\t\t\t\t|=================================================|\n");
