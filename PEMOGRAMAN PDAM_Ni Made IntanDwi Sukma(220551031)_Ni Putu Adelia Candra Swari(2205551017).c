@@ -4,18 +4,15 @@
 #define BPM_R 9000.00 // biaya Pemeliharaan meter untuk rumah tangga
 #define BPM_U 15000.00 //biaya Pemeliharaan meter untuk usaha
 
-float pemakaian_lalu;
-float pemakaian_saat_ini;
-float besar_pemakaian;
-float biaya_pemakaian;
-int tanggal;
-float denda;
-float total;
-int valid ;
-char punten;
-int cek;
-int pilihan;
-int sekalimuncul;
+//  DEKLARASI
+void cover ();
+void menu();
+void rumahtangga();
+void subsidi();
+void tanpabersubsidi();
+void usaha();
+void niaga();
+void industri();
 
 //FUNGSI PEMAKAIAN
 float besarpemakaian (float pemakaian_saat_ini, float pemakaian_lalu){
